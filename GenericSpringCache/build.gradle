@@ -27,8 +27,17 @@ dependencies {
 	// https://mvnrepository.com/artifact/org.springframework/spring-expression
 	
 	compile group: 'org.springframework', name: 'spring-expression', version: '5.0.8.RELEASE'
-	compile group: 'org.ehcache', name: 'ehcache', version: '3.5.2'
+	// https://mvnrepository.com/artifact/net.sf.ehcache/ehcache
+	compile group: 'net.sf.ehcache', name: 'ehcache', version: '2.10.5'
 	
+// https://mvnrepository.com/artifact/org.springframework/spring-context-support
+compile group: 'org.springframework', name: 'spring-context-support', version: '4.0.0.RELEASE'
+	
+	// https://mvnrepository.com/artifact/com.google.guava/guava
+compile group: 'com.google.guava', name: 'guava', version: '26.0-jre'
+
+compile group: 'com.google.guava', name: 'guava', version: '10.0.1'
+
 	
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:23.0'
